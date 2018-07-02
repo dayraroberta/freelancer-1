@@ -1,32 +1,36 @@
 .body{
   font-size: 16px;
+  width: 100%;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .container{
   display: flex;
   background-color: #2C3E50;
   color: white;
   width: 100%;
-  height: 80px;
+  height: 83px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  justify-content: space-between;
   text-align: center;
+  justify-content: space-around;
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+  letter-spacing: -1px;
 }
 
 .firstBox{
   display: flex;
 	font-size: 1.25rem;
 	font-weight: 700;
-  letter-spacing: -2px;
-  
 }
 
 .secondBox > li {
   display: inline-block;
-  padding-left: 20px;
+  padding-left: 10%;
   text-align: center;
   
 }
@@ -39,25 +43,51 @@ ul{
   justify-content: flex-end;
 }
 
-
 .startboot{
   width: 100%;
-  height: 629px;
+  height: 655px;
   background-color: #18bc9c;
   text-align: center;
   color: white;
-  padding-top: 1px;
 }
 
-.thirdBox{
-	padding-top: 100px;
+.thirdBox img{
+  padding-top: 100px;
+  height: 245px;
+  width: 245px;
+  padding-bottom: 50px;
+}
+
+.portfolio{
+  width: 100%;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.images{
+  align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.images img{
+  width: 330px;
+	height: 237px;
+	margin: 16px 13px 17px;
+}
+
+.about{
+	height: 520px;
+	width: 100%;
+	background-color: #18bc9c;
+  overflow: hidden;
 }
 
 .line{
   background-color: white;
   height: 5px;
   width: 97px;
-  margin-top: 13px;
+  margin-top: 10px;
 }
 
 .lineBlack{
@@ -71,47 +101,83 @@ ul{
   justify-content: center;
   margin-right: 3px;
   margin-left: 3px;
+  margin-top: -57px;
 }
 
 .fa-star {
 	padding-left: 10px;
-	padding-right: 10px;
+  padding-right: 10px;
+  font-size: 25px;
 }
 
-h1{
-  font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
+
+#articles {
+	color: #fff;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	text-align: left;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 2px;
+	line-height: 27px;
+}
+#article1 p, #article2 p {
+	height: 188px;
+	width: 324px;
+}
+div#button {
+	height: 45px;
+	width: 192px;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 2px auto;
+}
+#button p {
+	color: #fff;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+  font-weight: 700;
+}
+
+
+h1.bootstrap{
+  background-color: #18bc9c;
   text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 73px;
+  line-height: 9rem;
+  font-weight: 900;
+  margin-top: -53px;
+  letter-spacing: -4px;
 }
 
 h2{
   font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: -1px;
 }
 
-.images{
-  align-items: center;
-	display: flex;
-	justify-content: center;
+h3.white{
+	color: white;
+	font-size: 45px;
+	font-weight: 900;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+  margin-top: 87px;
 }
 
-.images img{
-  width: 315px;
-	height: 228px;
-	margin: 10px 13px 17px;
-}
-
-.about{
-  background-color: #18bc9c;
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  font-weight: 300;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-  color: #fff;
-}
-
-  .about1 p, .about2 p {
-    height: 188px;
-    width: 426px;
+h3.black{
+  color: black;
+	font-size: 45px;
+	font-weight: 900;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+  margin-top: 89px;
+  margin-bottom: 70px;
 }

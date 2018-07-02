@@ -1,25 +1,23 @@
-.body{
-  font-size: 16px;
+body {
+  font-size: 1rem;
   width: 100%;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: center;
 }
 
 .container{
   display: flex;
   background-color: #2C3E50;
-  color: white;
-  width: 100%;
-  height: 83px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  text-align: center;
   justify-content: space-around;
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+  color: white;
+  width: 100%;
+  height: 83px;
   letter-spacing: -1px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .firstBox{
@@ -32,7 +30,7 @@
   display: inline-block;
   padding-left: 10%;
   text-align: center;
-  
+
 }
 
 ul{
@@ -65,8 +63,8 @@ ul{
 }
 
 .images{
+  display: flex;
   align-items: center;
-	display: flex;
 	justify-content: center;
 }
 
@@ -77,39 +75,13 @@ ul{
 }
 
 .about{
-	height: 520px;
+  overflow: hidden;
+  color: white;
+	height: 545px;
 	width: 100%;
 	background-color: #18bc9c;
-  overflow: hidden;
+ 
 }
-
-.line{
-  background-color: white;
-  height: 5px;
-  width: 97px;
-  margin-top: 10px;
-}
-
-.lineBlack{
-  background-color: black;
-  height: 5px;
-  width: 97px;
-  margin-top: 13px;
-}
-.star{
-  display: flex;
-  justify-content: center;
-  margin-right: 3px;
-  margin-left: 3px;
-  margin-top: -57px;
-}
-
-.fa-star {
-	padding-left: 10px;
-  padding-right: 10px;
-  font-size: 25px;
-}
-
 
 #articles {
 	color: #fff;
@@ -122,10 +94,18 @@ ul{
 	margin-top: 2px;
 	line-height: 27px;
 }
+
+#article1{
+  padding-right: 3%;
+}
+
 #article1 p, #article2 p {
 	height: 188px;
-	width: 324px;
+	width: 370px;
+  font-weight: 300;
+  font-size: 1.4rem;
 }
+
 div#button {
 	height: 45px;
 	width: 192px;
@@ -156,6 +136,123 @@ h1.bootstrap{
   letter-spacing: -4px;
 }
 
+.contact{
+  background-color: white;
+  flex-direction: column;
+  height: 825px;
+  width: 100%;
+	display: flex;
+  align-items: center;
+}
+.contact fieldset{
+  display: flex;
+  align-items: center;
+}
+
+label{
+  color: #868E96;
+	font-family: "Lato", sans-serif;
+	font-size: 22px;
+	padding:29px 2px;
+}
+
+input{
+  width: 30%;
+  border: none;
+  border-bottom: 3px solid #f2f4f7;
+  background-color: transparent;
+  text-decoration: underline;
+  color: #f2f4f7;
+}
+
+.button{
+  height: 53px;
+	width: 71px;
+	color: #fff;
+  background-color: #18bc9c;
+  border: 2px #18bc9c solid;
+	border-radius: 5px;
+	margin-top: 22px;
+  text-transform: capitalize;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+fieldset{
+  border: none;
+}
+
+#endpage {
+  display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 261px;
+	color: white;
+	text-align: center;
+	background-color: #2B3D4F;
+	
+}
+#endpage div {
+	width: 340px;
+	height: 170px;
+	margin-top: 40px;
+}
+#endpage h3 {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+#endpage h4 {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	margin-top: 24px;
+	color: #fff;
+	line-height: 27px;
+}
+
+.web {
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+span {
+	color: #18bc9c;
+} 
+
+.copyright {
+  display: flex;
+  justify-content: center;
+	height:55px;
+	font-size: 16px;
+	background-color: #2B3D4F;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+#icons{
+	width: 340px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#icons i{
+	height: 55px;
+	width: 55px;
+	font-size: 18px;
+	border: 2px solid #fff;
+	border-radius: 45px;
+	background-color: transparent;
+	margin: 2px 4px;
+	line-height: 55px;
+	align-items: center;
+	justify-content: center;
+}
+
 h2{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -165,11 +262,12 @@ h2{
 
 h3.white{
 	color: white;
-	font-size: 45px;
+	font-size: 3.5rem;
 	font-weight: 900;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-  margin-top: 87px;
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
 h3.black{
@@ -180,4 +278,32 @@ h3.black{
 	font-family: 'Montserrat', sans-serif;
   margin-top: 89px;
   margin-bottom: 70px;
+}
+
+.line{
+  background-color: white;
+  height: 5px;
+  width: 97px;
+  margin-top: 10px;
+}
+
+.lineBlack{
+  background-color: black;
+  height: 5px;
+  width: 97px;
+  margin-top: 13px;
+}
+
+.star{
+  display: flex;
+  justify-content: center;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: -57px;
+}
+
+.fa-star {
+	padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
 }
